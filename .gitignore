@@ -1,0 +1,16 @@
+.DS_Store
+LLC/
+image2/
+
+# Internal planning notes, not needed for the public website.
+*.md
+!README.md
+
+# Unused working assets.
+assets/logo-concept-sheet.png
+assets/starlight-logo-temp.svg
+assets/photos/overlay-sample-set-needs-edit.jpg
+assets/photos/member-switch-real-2.png
+assets/photos/product-center-real.png
+assets/hero-interface.svg
+assets/graphic-overlays.svg

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Request a Quote | Starlight Electronics LLC</title>
+    <meta name="description" content="Request a quote for custom graphic overlays, membrane switches, nameplates, control panels, and camera lens protective films." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><img src="assets/starlight-logo.png" alt="Starlight Electronics" /></a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="graphic-overlays.html">Graphic Overlays</a>
+        <a href="membrane-switches.html">Membrane Switches</a>
+        <a href="industries.html">Industries</a>
+        <a href="camera-films.html">Camera Films</a>
+        <a href="certifications.html">Patents &amp; Docs</a>
+        <a href="contact.html">Contact</a>
+        <a class="nav-cta" href="request-quote.html">Request a Quote</a>
+      </nav>
+    </header>
+    <main class="page">
+      <section class="page-hero quote-hero">
+        <div>
+          <p class="eyebrow">RFQ</p>
+          <h1>Send a drawing, photo, or sample description.</h1>
+          <p class="lead">Use this page as the central destination for Google Ads, LinkedIn outreach, email development, and trade show follow-up.</p>
+        </div>
+        <aside class="quote-note">
+          <strong>Fastest quote inputs</strong>
+          <span>Drawing or photo, size, material, adhesive, quantity, application, and target lead time.</span>
+        </aside>
+      </section>
+
+      <section class="quote-layout">
+        <div class="rfq-panel">
+          <form class="rfq-form" id="rfq-form" data-recipient="starlight.rfq@outlook.com">
+            <div class="form-grid">
+              <label>Name <input name="name" autocomplete="name" required /></label>
+              <label>Company <input name="company" autocomplete="organization" /></label>
+              <label>Email <input name="email" type="email" autocomplete="email" required /></label>
+              <label>Country <input name="country" autocomplete="country-name" /></label>
+            </div>
+            <div class="form-grid">
+              <label>Product type
+                <select name="product_type">
+                  <option>Graphic overlay</option>
+                  <option>Membrane switch</option>
+                  <option>Nameplate or label</option>
+                  <option>Camera lens protective film</option>
+                  <option>Adhesive or die-cut part</option>
+                  <option>Other custom part</option>
+                </select>
+              </label>
+              <label>Estimated quantity <input name="quantity" placeholder="Prototype, 100 pcs, 1,000 pcs..." /></label>
+            </div>
+            <div class="form-grid">
+              <label>Application industry <input name="industry" placeholder="Industrial, medical, appliance, electronics..." /></label>
+              <label>Target lead time <input name="lead_time" placeholder="Sample in 7 days, production in 3 weeks..." /></label>
+            </div>
+            <label>Project details <textarea name="message" rows="7" placeholder="Size, material, adhesive, waterproof needs, metal dome, tail design, window clarity, surface finish, or drawing notes"></textarea></label>
+            <label class="file-drop">Drawings, photos, or PDF files
+              <input name="files" id="rfq-files" type="file" multiple accept=".ai,.pdf,.dxf,.dwg,.step,.stp,.jpg,.jpeg,.png,.webp,.heic" />
+              <span class="file-drop-copy">
+                Select product photos, drawings, PDFs, or CAD files. After the email opens, attach the selected files before sending.
+              </span>
+              <span class="file-list" id="file-list">No files selected yet.</span>
+            </label>
+            <label>Lead source <input name="lead_source" id="lead-source" readonly /></label>
+            <p class="form-note">For this low-cost prototype, the button prepares a structured RFQ email. A real upload inbox can be connected later with a form service.</p>
+            <button class="button primary" type="submit">Prepare RFQ Email</button>
+            <p class="form-warning" id="rfq-warning" hidden>Please replace the test email address before launching ads.</p>
+          </form>
+        </div>
+
+        <aside class="quote-sidebar">
+          <div>
+            <h2>What buyers can send</h2>
+            <ul>
+              <li>Photos of an old sample or current panel</li>
+              <li>AI, PDF, DXF, DWG, STEP, or mechanical drawings</li>
+              <li>Material, adhesive, thickness, color, and finish notes</li>
+              <li>Quantity range and target delivery window</li>
+            </ul>
+          </div>
+          <div>
+            <h2>What we review</h2>
+            <ul>
+              <li>Print, window, embossing, and die-cut feasibility</li>
+              <li>Membrane switch structure, tail, dome, and sealing needs</li>
+              <li>Adhesive stack, gasket, film, and optical surface requirements</li>
+              <li>Prototype path and production risk before tooling</li>
+            </ul>
+          </div>
+        </aside>
+      </section>
+
+      <section class="page-section">
+        <h2>Not ready to quote yet?</h2>
+        <div class="related-links">
+          <a class="related-card" href="graphic-overlays.html"><strong>Graphic Overlays</strong><span>Review overlay materials and options first.</span></a>
+          <a class="related-card" href="membrane-switches.html"><strong>Membrane Switches</strong><span>Check keypad structures and common features.</span></a>
+          <a class="related-card" href="camera-films.html"><strong>Camera Films</strong><span>See optical and die-cut film capability.</span></a>
+        </div>
+      </section>
+    </main>
+    <script src="site.js" defer></script>
+  </body>
+</html>

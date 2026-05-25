@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="RFQ icon">
+  <path d="M19 48 75 22 62 76 47 57 30 65z" fill="#e3f3f4" stroke="#0b6f78" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M47 57 75 22" stroke="#0b6f78" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="27" cy="27" r="5" fill="#ff8a5c"/>
+  <circle cx="72" cy="69" r="5" fill="#f6c55f"/>
+</svg>

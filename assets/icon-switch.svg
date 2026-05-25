@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Membrane switch icon">
+  <rect x="18" y="18" width="60" height="46" rx="14" fill="#f0f6fb" stroke="#0b6f78" stroke-width="4"/>
+  <circle cx="35" cy="41" r="9" fill="#0b6f78"/>
+  <circle cx="60" cy="41" r="9" fill="#ff8a5c"/>
+  <path d="M48 64v9c0 5 4 9 9 9h18" fill="none" stroke="#b9c6d3" stroke-width="6" stroke-linecap="round"/>
+  <path d="M57 73h18" stroke="#f6c55f" stroke-width="4" stroke-linecap="round"/>
+</svg>
