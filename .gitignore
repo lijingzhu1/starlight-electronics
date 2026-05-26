@@ -2,6 +2,7 @@
 LLC/
 image2/
 internal/
+outreach-drafts/
 
 # Internal planning notes, not needed for the public website.
 *.md
